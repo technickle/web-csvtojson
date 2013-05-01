@@ -87,4 +87,4 @@ http.createServer(function(req, res) {
 		res.writeHead(500);
 		red.end(e);
 	}
-}).listen(1024);
+}).listen(80);
