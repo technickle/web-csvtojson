@@ -87,4 +87,4 @@ http.createServer(function(req, res) {
 		res.writeHead(500);
 		red.end(e);
 	}
-}).listen(80);
+}).listen(process.env.PORT || 5000);
